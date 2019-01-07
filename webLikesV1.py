@@ -2,7 +2,6 @@ from webbot import Browser
 from time import sleep
 from selenium import webdriver
 
-#kranetestaccountone pass kranetestaccount1
 def firstLog(): #used for testing
     #prima data
     web.type('account' , into='email')
