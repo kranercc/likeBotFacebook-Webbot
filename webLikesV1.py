@@ -12,8 +12,8 @@ user = ['user','pass','user','pass...etc the amount of accounts you have']
 
 def secoundLog(): # used for debugging
     #dupaia te baga intr-un fel de check si tre sa bagi din nou
-    web.type('kranetestaccountone',into='email',id='email')
-    web.type('kranetestaccount1',into='pass',id='pass')
+    web.type('user',into='email',id='email')
+    web.type('pass',into='pass',id='pass')
     web.click("Log In")
     sleep(1)
 
